@@ -33,39 +33,6 @@ python number_guessr.py
 - No external libraries required (uses built-in `random` module)
 
 ## Example Game
-a task tracker this is, the loop is to take input from user, if user says "updt" then it prompts which task no. (0 through 9) to update, and then takes user input to update the task and save it to the said json file without changing any other tasks saved
-
-
-Here's a README.md for your Task Tracker application:
-python
-python task_tracker.py
-TASK TRACKER APP
-enter the number of tasks you want to add: 2
-Task 1: Complete homework
-Task 2: Buy groceries
-update a task...(updt)
-add a task...(add)
-remove a task...(rmv)
-mark a task as done...(done)
-mark a task as in progress...(ip)
-list all tasks...(lst)
-list done tasks...(lst_done)
-list in progress tasks...(lst_ip)
-=> lst
-tasks to do: {'task_1': 'Complete homework', 'task_2': 'Buy groceries'}
-This README provides:
-A brief description of the application
-List of features
-Usage instructions
-Available commands
-Information about data storage
-Requirements
-Example usage
-Important notes
-Feel free to modify or expand this README based on any additional features or specific instructions you want to include!
-generate a readme.md file for this
-
-Here's a README.md file for your Number Guesser game:
 python number_guessr.py
 welcome to the game!
 i will guess a number from 0-100
