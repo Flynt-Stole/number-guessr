@@ -12,12 +12,15 @@ while True:
         for i in range(10):
             ans = input("enter your guess -> ")
 
-        if ans == num:
-            print("HOORAY! you did it!")
-            break
+        if ans < num:
+            print("wrong one! the number is greater than", ans)
+
+        elif ans > num:
+            print("wrong one! the number is less than", ans)
 
         else:
-            print("wrong one!")
+            print("HOORAY! you did it!")
+            break
     else:
         print("the number was", num)
 
@@ -26,31 +29,39 @@ while True:
         for i in range(5):
             ans = input("enter your guess -> ")
 
-            if ans == num:
-                print("HOORAY! you did it!")
-                break
-            else:
-                print("wrong one!")
+        if ans < num:
+            print("wrong one! the number is greater than", ans)
+
+        elif ans > num:
+            print("wrong one! the number is less than", ans)
+
         else:
-            print("the number was", num)
+            print("HOORAY! you did it!")
+            break
+    else:
+        print("the number was", num)
 
 
-    elif difficulty == "3":
+    if difficulty == "3":
         for i in range(3):
             ans = input("enter your guess -> ")
 
-            if ans == num:
-                print("HOORAY! you did it!")
-                break
-            else:
-                print("wrong one!")
+        if ans < num:
+            print("wrong one! the number is greater than", ans)
+
+        elif ans > num:
+            print("wrong one! the number is less than", ans)
+
         else:
-            print("the number was", num)
+            print("HOORAY! you did it!")
+            break
+    else:
+        print("the number was", num)
 
     
     print("do you want to play again? (y/n)")
     play_again = input("-> ")
     if play_again == "y":
-        contnue
+        continue
     else:
         break
